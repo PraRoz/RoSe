@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;500;600;700;900&display=swap');
+
+:root{
+    --ff-primary: 'Playfair Display', serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+
+    --fw-reg: 300;
+    --fw-semibold:600;
+    --fw-bold: 700;
+    
+    --clr-primary:#6E52C7;
+    --clr-secondary:#AE9BC8;
+    --clr-light: #fff;
+    --clr-gray:#EAE6E3;
+    --clr-dark: #303030;
+
+    --fs-h1: 3.2rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.75rem;
+    --fs-h4: 1.25rem;
+    --fs-body: 1rem;
+
+    --transition: all 300ms ease-in-out;
+}
+a:hover{
+    color:#000;
+}
+.slick-track{
+    padding: 30px 0px;
+}
+.ant-btn-primary {
+    background-color:var(--clr-primary);
+    color: var(--clr-light);
+    font-weight: 500;
+  }
+.ant-btn-primary:hover{
+    background-color: var(--clr-secondary) !important;
+}
+.ant-btn-default{
+    background-color: var(--clr-secondary);
+    color: var(--clr-light);
+    font-weight: 500;
+}
+.ant-btn-default:hover{
+    background-color: var(--clr-primary) !important;
+    color: var(--clr-light) !important;
+}
+.ant-dropdown-menu{
+    margin-top: 15px !important;
+    margin-left: 20px !important;
+}
+.ant-dropdown-menu-title-content{
+    padding: 10px 0px !important;
+    text-align: center !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: var(--clr-primary) !important;
+}
+.ant-menu {
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    padding: 10px;
+}
+
+.link{
+    list-style: none;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 25px;
+    border-radius: 11px;
+}
+.link:hover{
+    background-color: #4c339e;
+}
+
+.active{
+    background: var(--clr-secondary);
+}
+.ant-table-cell{
+    padding: 15px 0 !important;
+    font-size: 18px !important;
+}
+
+.anticon .anticon-search svg{
+    fill: #fff;
+}
+
+
+
+
